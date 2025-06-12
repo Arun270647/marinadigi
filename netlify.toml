@@ -1,19 +1,18 @@
+# Basic Netlify configuration file
+
 [build]
-  publish = "dist" # or "build" if using Create React App
+  # This command is run to build your site. 
+  # Using "npm run dev" is common for some frameworks, but often "npm run build" is standard.
+  # Ensure your package.json has a "dev" script.
   command = "npm run dev"
 
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+  # The directory that contains the deploy-ready HTML files and assets.
+  # This is the directory that Netlify will deploy. 
+  # Common examples are "dist", "build", "public", or "out".
+  # You might need to change this depending on what your "npm run dev" command outputs.
+  publish = "dist" 
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Cache-Control = "public, max-age=31536000" 
+[dev]
+  # This block is for local development using the Netlify CLI (optional)
+  # It tells the local dev server which command to run.
+  command = "npm run dev"
