@@ -4,7 +4,7 @@
   # This command is run to build your site. 
   # Using "npm run dev" is common for some frameworks, but often "npm run build" is standard.
   # Ensure your package.json has a "dev" script.
-  command = "npm run dev"
+  command = "npm run build"
 
   # The directory that contains the deploy-ready HTML files and assets.
   # This is the directory that Netlify will deploy. 
