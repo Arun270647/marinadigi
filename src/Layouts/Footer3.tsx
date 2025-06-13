@@ -5,10 +5,10 @@ import { Container, Row, Col } from "react-bootstrap";
 // Define the Footer component
 const Footer3: React.FC = () => {
   const socialLinks = [
-    { href: "#", src: "src/assets/img/icons/facebook4.svg", alt: "Facebook" },
-    { href: "#",src: "src/assets/img/icons/instagram4.svg", alt: "Instagram" },
-    { href: "#", src: "src/assets/img/icons/linkedin4.svg", alt: "LinkedIn" },
-    { href: "#", src: "src/assets/img/icons/twitter3.svg", alt: "YouTube" },
+    { href: "#", src: "/assets/img/icons/facebook4.svg", alt: "Facebook" },
+    { href: "#", src: "/assets/img/icons/instagram4.svg", alt: "Instagram" },
+    { href: "#", src: "/assets/img/icons/linkedin4.svg", alt: "LinkedIn" },
+    { href: "#", src: "/assets/img/icons/youtube.svg", alt: "YouTube" },
   ];
 
   const aboutLinks = [
@@ -26,7 +26,7 @@ const Footer3: React.FC = () => {
         <Row className="justify-content-center text-center">
           <Col lg={3} md={6}>
             <div className="footer-logo-area">
-              <img src="src/assets/img/logo/footer-logo.png" alt="Logo" />
+              <img src="/assets/img/logo/footer-logo.png" alt="Logo" />
               <p>
                 By optimizing content, leveraging relevant keywords, and
                 adhering to best practices, businesses can secure a prominent
@@ -63,14 +63,14 @@ const Footer3: React.FC = () => {
               <ul className="list-unstyled">
                 <li>
                   <a href="mailto:info@marinadigitals.com" className="d-inline-flex align-items-center">
-                    <img src="src/assets/img/icons/email.svg" alt="Email" className="me-2" />
+                    <img src="/assets/img/icons/email.svg" alt="Email" className="me-2" />
                     <span>info@marinadigitals.com</span>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="d-inline-flex align-items-center">
                     <img
-                      src="src/assets/img/icons/location.svg"
+                      src="/assets/img/icons/location.svg"
                       alt="Location"
                       className="me-2"
                     />
@@ -85,7 +85,7 @@ const Footer3: React.FC = () => {
                 </li>
                 <li>
                   <a href="tel:123-456-7890" className="d-inline-flex align-items-center">
-                    <img src="src/assets/img/icons/phone.svg" alt="Phone" className="me-2" />
+                    <img src="/assets/img/icons/phone.svg" alt="Phone" className="me-2" />
                     <span>123-456-7890</span>
                   </a>
                 </li>

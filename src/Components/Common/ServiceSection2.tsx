@@ -9,12 +9,12 @@ const ServiceSection2: React.FC<{ className: string }> = ({ className }) => {
           <div className="col-lg-12 m-auto">
             <div className="service2-header heading2 text-center">
               <img
-                src="src/assets/img/elements/star2.png"
+                src="/assets/img/elements/star2.png"
                 alt=""
                 className="star2 keyframe5"
               />
               <img
-                src="src/assets/img/elements/star2.png"
+                src="/assets/img/elements/star2.png"
                 alt=""
                 className="star3 keyframe5"
               />
@@ -39,7 +39,7 @@ const ServiceSection2: React.FC<{ className: string }> = ({ className }) => {
               data-aos-duration="1000"
             >
               <div className="img1">
-                <img src="src/assets/img/all-images/service-img1.png" alt="" />
+                <img src="/assets/img/all-images/service-img1.png" alt="" />
               </div>
               <div className="content-area">
                 <h5>Our Value</h5>
@@ -48,7 +48,7 @@ const ServiceSection2: React.FC<{ className: string }> = ({ className }) => {
                   Growth
                 </Link>
                 <p data-aos="fade-up" data-aos-duration="1000">
-                  We’re committed to delivering exceptional value to our
+                  We're committed to delivering exceptional value to our
                   clients. We understand that every business is unique, and we
                   take a personalized approach to every project we undertake.
                 </p>

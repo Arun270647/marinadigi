@@ -17,12 +17,12 @@ const PageHero: React.FC<{
       }}
     >
       <img
-        src="src/assets/img/elements/elements1.png"
+        src="/assets/img/elements/elements1.png"
         alt=""
         className="elements1 aniamtion-key-1"
       />
       <img
-        src="src/assets/img/elements/star2.png"
+        src="/assets/img/elements/star2.png"
         alt=""
         className="star2 keyframe5"
       />

@@ -15,12 +15,12 @@ const AboutSection: React.FC = () => {
                 data-aos-offset="0"
               >
                 <img
-                  src="src/assets/img/all-images/about-img1.png"
+                  src="/assets/img/all-images/about-img1.png"
                   alt="About"
                 />
               </figure>
               <img
-                src="src/assets/img/elements/star1.png"
+                src="/assets/img/elements/star1.png"
                 alt="Star"
                 className="star1 keyframe5"
               />
@@ -31,12 +31,12 @@ const AboutSection: React.FC = () => {
               <div className="arrow-circle">
                 <Link to="/about">
                   <img
-                    src="src/assets/img/elements/elements4.png"
+                    src="/assets/img/elements/elements4.png"
                     alt="Element"
                     className="elements4 keyframe5"
                   />
                   <img
-                    src="src/assets/img/icons/arrow.svg"
+                    src="/assets/img/icons/arrow.svg"
                     alt="Arrow"
                     className="arrow"
                   />
@@ -67,7 +67,7 @@ const AboutSection: React.FC = () => {
           <div className="col-lg-3">
             <div className="about-auhtor-images">
               <img
-                src="src/assets/img/elements/elements5.png"
+                src="/assets/img/elements/elements5.png"
                 alt="Element"
                 className="elements5 keyframe5"
               />
@@ -78,7 +78,7 @@ const AboutSection: React.FC = () => {
                 data-aos-offset="0"
               >
                 <img
-                  src="src/assets/img/all-images/about-img2.png"
+                  src="/assets/img/all-images/about-img2.png"
                   alt="About Author"
                 />
               </figure>

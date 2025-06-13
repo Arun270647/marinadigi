@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
     author: "Sarah L.",
     rating: 5,
     authorLink: "/team",
-    logoSrc: "src/assets/img/icons/google1.svg",
+    logoSrc: "/assets/img/icons/google1.svg",
     animation: "zoom-out",
     aosDuration: 1200,
   },
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
     author: "David M.",
     rating: 5,
     authorLink: "/team",
-    logoSrc: "src/assets/img/icons/google1.svg",
+    logoSrc: "/assets/img/icons/google1.svg",
     animation: "zoom-out",
     aosDuration: 1200,
   },
@@ -41,7 +41,7 @@ const testimonials: Testimonial[] = [
     author: "Emily R.",
     rating: 5,
     authorLink: "/team",
-    logoSrc: "src/assets/img/icons/google1.svg",
+    logoSrc: "/assets/img/icons/google1.svg",
     animation: "zoom-out",
     aosDuration: 1200,
   },
@@ -76,7 +76,7 @@ const TestimonialSection: React.FC = () => {
               {testimonials.map((testimonial) => (
                 <div className="testimonial-boxarea" key={testimonial.id}>
                   <img
-                    src="src/assets/img/icons/quito4.svg"
+                    src="/assets/img/icons/quito4.svg"
                     alt="Quote Icon"
                     className="quito"
                   />

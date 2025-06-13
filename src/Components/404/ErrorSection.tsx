@@ -10,14 +10,14 @@ const ErrorSection: React.FC = () => {
           <Col lg={6} className="m-auto">
             <div className="heading2 text-center">
               <Image
-                src="src/assets/img/all-images/error-img1.png"
+                src="/assets/img/all-images/error-img1.png"
                 alt="Error Image"
               />
               <div className="space50"></div>
               <h2>Sorry! Page Not Found!</h2>
               <div className="space16"></div>
               <p>
-                Sorry, the page you are looking for doesn’t exist or has
+                Sorry, the page you are looking for doesn't exist or has
                 <br className="d-lg-block d-none" />
                 been moved. Here are some helpful links.
               </p>

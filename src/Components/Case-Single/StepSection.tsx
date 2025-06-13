@@ -27,12 +27,12 @@ const StepSection: React.FC<StepSectionProps> = ({
       <div className="col-lg-6">
         <div className="about-all-images-area">
           <img
-            src="src/assets/img/elements/elements14.png"
+            src="/assets/img/elements/elements14.png"
             alt=""
             className="elements12 keyframe5"
           />
           <img
-            src="src/assets/img/elements/elements15.png"
+            src="/assets/img/elements/elements15.png"
             alt=""
             className="elements13 keyframe5"
           />

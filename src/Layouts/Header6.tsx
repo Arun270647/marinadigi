@@ -59,7 +59,7 @@ const Header6: React.FC = () => {
             <div className="header-elements">
               <div className="site-logo">
                 <Link to="/"> {/* Logo also links to the homepage */}
-                  <img src="src/assets/img/logo/header-logo.png" alt="Logo" /> {/* [cite: marina-digi-gemini/src/Layouts/Header6.tsx] */}
+                  <img src="/assets/img/logo/header-logo.png" alt="Logo" /> {/* [cite: marina-digi-gemini/src/Layouts/Header6.tsx] */}
                 </Link>
               </div>
               <div className="main-menu d-flex align-items-center gap-3">

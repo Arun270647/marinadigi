@@ -20,12 +20,12 @@ const GoogleReviews: React.FC<{ className: string }> = ({ className }) => {
           <div className="col-lg-12 m-auto">
             <div className="testimonial-header heading2 text-center">
               <img
-                src="src/assets/img/elements/star2.png"
+                src="/assets/img/elements/star2.png"
                 alt=""
                 className="star2 keyframe5"
               />
               <img
-                src="src/assets/img/elements/star2.png"
+                src="/assets/img/elements/star2.png"
                 alt=""
                 className="star3 keyframe5"
               />
@@ -71,7 +71,7 @@ const GoogleReviews: React.FC<{ className: string }> = ({ className }) => {
                             <Link to="/team">{testimonial.name}</Link>
                           </div>
                           <img
-                            src="src/assets/img/icons/google.svg"
+                            src="/assets/img/icons/google.svg"
                             alt="Google"
                           />
                         </div>
@@ -100,17 +100,17 @@ const testimonials = [
   {
     text: "Working with Marina Digitals has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.",
     name: "John Doe",
-    image: "src/assets/img/all-images/testimonial-img1.png",
+    image: "/assets/img/all-images/testimonial-img1.png",
   },
   {
     text: "Working with Marina Digitals has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.",
     name: "John Doe",
-    image: "src/assets/img/all-images/testimonial-img2.png",
+    image: "/assets/img/all-images/testimonial-img2.png",
   },
   {
     text: "Working with Marina Digitals has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.",
     name: "John Doe",
-    image: "src/assets/img/all-images/testimonial-img2.png",
+    image: "/assets/img/all-images/testimonial-img2.png",
   },
 ];
 
