@@ -21,7 +21,7 @@ const HomePage6 = () => {
       <ServiceSection btnClass="header-btn6" />
       <CaseStudySection btnClass="header-btn6" />
       <WorkProcessSection btnClass="header-btn6" />
-      <BlogSection />
+      {/*<BlogSection />*/}
       <Cta2Section btnClass="header-btn7" />
       <Footer3 />
     </>

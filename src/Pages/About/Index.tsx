@@ -23,7 +23,7 @@ const About = () => {
       <CompanySliderSection className="slider-section-area slider-inner sp5" />
       <AboutSection />
       <WhyChooseUs />
-      <HistorySection />
+      {/* <HistorySection /> */}
       <SkillsSection />
       <ServiceSection2 className="service2-section-area sp1 bg2" />
       <CtaSection />
