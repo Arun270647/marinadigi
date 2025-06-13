@@ -8,7 +8,6 @@ import BenefitsSection from "../../Components/Service3/BenefitsSection";
 import CtaSectionService2 from "../../Components/Service2/CtaSection";
 import AnalysisSection from "../../Components/Service2/AnalysisSection";
 import ChooseSection from "../../Components/Service2/ChooseSection";
-import TeamSection from "../../Components/About/TeamSection";
 const Service3Page = () => {
   return (
     <>
@@ -24,7 +23,6 @@ const Service3Page = () => {
       <CtaSectionService2 />
       <AnalysisSection />
       <ChooseSection />
-      <TeamSection />
       <CtaSection />
       <Footer />
     </>

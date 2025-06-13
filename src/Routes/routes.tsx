@@ -12,10 +12,8 @@ import About from "../Pages/About/Index";
 import BlogLeft from "../Pages/Blog left/index";
 import CasePage from "../Pages/Case/Index";           // Case Study listing page
 import TeamPage from "../Pages/Team/Index";             // Our Team page
-import FAQPage from "../Pages/Faq/Index"; 
-import PricingPage from "../Pages/Pricing/Index";       // [cite: marina-digi-gemini/src/Pages/Pricing/Index.tsx]
+import FAQPage from "../Pages/Faq/Index";       // [cite: marina-digi-gemini/src/Pages/Pricing/Index.tsx]
 import Contact from "../Pages/Contact/Index";
-import TestimonialsPage from "../Pages/Testimonials/Index";
 import NotFoundPage from "../Pages/404/Index.tsx";// Optional: If Header6 or Footer3 links directly to a specific service or blog page
 // and you want to keep just ONE example of those, import them here.
 // For this cleanup, we'll assume they are not kept unless specified.
@@ -39,8 +37,6 @@ const routesConfig = [
   { path: "/case", element: <CasePage /> },
   { path: "/team", element: <TeamPage /> },
   { path: "/faq", element: <FAQPage /> },
-  { path: "/pricing", element: <PricingPage /> },
-  { path: "/testimonials", element: <TestimonialsPage /> },
   { path: "/404", element: <NotFoundPage /> },
   { path: "/contact", element: <Contact /> },// Other essential routes you want to keep
   // { path: "/about", element: <AboutPage /> },

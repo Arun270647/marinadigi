@@ -8,28 +8,24 @@ const caseStudies = [
     imgSrc: "/assets/img/all-images/case-img1.png",
     title: "Website Design & Development",
     description: "Digital Art. Illustrations",
-    link: "/case-single",
   },
   {
     id: 2,
     imgSrc: "/assets/img/all-images/case-img2.png",
     title: "SEO",
     description: "Digital Art. Illustrations",
-    link: "/case-single",
   },
   {
     id: 3,
     imgSrc: "/assets/img/all-images/case-img3.png",
     title: "PPC Advertising",
     description: "Digital Art. Illustrations",
-    link: "/case-single",
   },
   {
     id: 4,
     imgSrc: "/assets/img/all-images/case-img4.png",
     title: "Social Media Marketing",
     description: "Digital Art. Illustrations",
-    link: "/case-single",
   },
 ];
 
@@ -72,11 +68,10 @@ const CaseStudySection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                   }`}
                   onMouseEnter={() => setActiveIndex(index)}
                 >
-                  <Link
-                    to="/case-single"
+                  <div
                     className={`cs_case_study_thumb cs_bg_filed cs_case_study_thumb${study.id}`}
                     data-src={study.imgSrc}
-                  ></Link>
+                  ></div>
                   <div className="content-area1">
                     <Link to="/case-single">{study.title}</Link>
                   </div>

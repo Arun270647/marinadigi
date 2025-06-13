@@ -1,4 +1,3 @@
-import TeamSection from "../../Components/About/TeamSection";
 import WorksSection from "../../Components/Case-Single/WorksSection";
 import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
@@ -26,7 +25,6 @@ const Service2Page = () => {
             <CtaSectionService2/>
             <AnalysisSection/>
             <ChooseSection/>
-            <TeamSection />
             <CtaSection />
             <Footer />
         </>

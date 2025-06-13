@@ -23,7 +23,6 @@ const menuItems: MenuItem[] = [
       // ...
     ],
   },
-  { label: "Pricing", to: "/pricing" },
   
 ];
 

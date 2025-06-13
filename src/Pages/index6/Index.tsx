@@ -2,9 +2,7 @@ import AboutSection from "../../Components/Common/AboutSection";
 import BlogSection from "../../Components/Common/BlogSection";
 import CaseStudySection from "../../Components/Common/CaseStudySection";
 import Cta2Section from "../../Components/Common/Cta2Section";
-import PricingSection from "../../Components/Common/PricingSection";
 import ServiceSection from "../../Components/Common/ServiceSection";
-import TestimonialSection from "../../Components/Common/TestimonialSection";
 import WorkProcessSection from "../../Components/Common/WorkProcessSection";
 import Hero4Section from "../../Components/HomePage6/Hero4Section";
 import Footer3 from "../../Layouts/Footer3";
@@ -23,8 +21,6 @@ const HomePage6 = () => {
       <ServiceSection btnClass="header-btn6" />
       <CaseStudySection btnClass="header-btn6" />
       <WorkProcessSection btnClass="header-btn6" />
-      <PricingSection />
-      <TestimonialSection />
       <BlogSection />
       <Cta2Section btnClass="header-btn7" />
       <Footer3 />

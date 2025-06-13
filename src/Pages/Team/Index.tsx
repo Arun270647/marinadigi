@@ -4,7 +4,6 @@ import CtaSection from "../../Components/Common/CtaSection";
 import Footer from "../../Layouts/Footer3";
 import WeBelieve from "../../Components/Team/WeBelieve";
 import TeamMembersSection from "../../Components/Team/TeamMembersSection";
-import TestimonialSection from "../../Components/Team/TestimonialSection";
 
 const Team = () => {
 
@@ -18,7 +17,6 @@ const Team = () => {
       />
       <WeBelieve />
       <TeamMembersSection title="Executive Team" data={executiveTeam} />
-      <TestimonialSection />
       <TeamMembersSection title="Leadership" data={leadershipTeam} />
       <CtaSection />
       <Footer />
