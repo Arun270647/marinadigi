@@ -28,8 +28,7 @@ const caseStudies = [
     description: "Digital Art. Illustrations",
   },
 ];
-
-const CaseStudySection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
+const CaseStudySection: React.FC<{}> = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (

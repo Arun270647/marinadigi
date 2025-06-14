@@ -9,7 +9,7 @@ const brandImages = [
   "/assets/img/elements/brand-img5.png",
 ];
 
-const CompanySliderSection: React.FC<{ className: string }> = ({
+const CompanySliderSection: React.FC<{ className?: string }> = ({
   className,
 }) => {
   const settings = {
@@ -20,6 +20,32 @@ const CompanySliderSection: React.FC<{ className: string }> = ({
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 3000,
+    responsive: [ // Added for better mobile support
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -28,13 +54,18 @@ const CompanySliderSection: React.FC<{ className: string }> = ({
         <div className="row align-items-center">
           <div className="col-lg-2">
             <div className="slider-head">
-              <p>
-                Our Clients
-              </p>
+              <p>Our Clients</p>
             </div>
           </div>
-          <div className="col-lg-10 d-flex justify-content-center align-items-center" style={{minHeight: '120px'}}>
-            <img src="/assets/img/logo/cp_new_logo.png" alt="Client Logo" style={{height: '100px', width: 'auto'}} />
+          <div className="col-lg-10">
+            {/* The slider implementation is now here */}
+            <Slider {...settings}>
+              {brandImages.map((logo, index) => (
+                <div key={index} className="brand-img text-center">
+                  <img src={logo} alt={`Client Logo ${index + 1}`} />
+                </div>
+              ))}
+            </Slider>
           </div>
         </div>
       </div>

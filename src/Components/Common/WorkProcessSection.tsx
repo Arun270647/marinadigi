@@ -29,7 +29,7 @@ const workProcesses = [
   },
 ];
 
-const WorkProcessSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
+const WorkProcessSection: React.FC<{}> = () => {
   return (
     <div className="works4-section-area sp2" id="works">
       <Container>

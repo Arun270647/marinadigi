@@ -1,4 +1,3 @@
-import React from "react";
 
 // The data type for each location
 type LocationDataType = {
