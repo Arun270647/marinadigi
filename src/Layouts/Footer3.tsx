@@ -62,7 +62,7 @@ const Footer3: React.FC = () => {
                 <li>
                   <a href="mailto:info@marinadigitals.com" className="d-inline-flex align-items-center">
                     <img src="/assets/img/icons/email.svg" alt="Email" className="me-2" />
-                    <span>info@marinadigitals.com</span>
+                    <span>admin@marinadigi.com</span>
                   </a>
                 </li>
                 <li>

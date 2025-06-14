@@ -84,7 +84,7 @@ const ContactMain: React.FC = () => {
                   </div>
                   <div className="content">
                     <p>Email Address</p>
-                    <a href="mailto:info@marinadigitals.com">info@marinadigitals.com</a>
+                    <a href="mailto:admin@marinadigi.com">admin@marinadigi.com</a>
                   </div>
                 </div>
               </div>
@@ -95,23 +95,14 @@ const ContactMain: React.FC = () => {
                     <img src="/assets/img/icons/location3.svg" alt="Location Icon" />
                   </div>
                   <div className="content">
-                    <a href="#">
+                    {/* The address is now bold using the fw-bold class */}
+                    <span className="fw-bold">
                         No/38/68a Palayakara Street, <br className="d-lg-block d-none" />
                         Ayanavaram, Chennai - 600 023
-                    </a>
+                    </span>
                   </div>
                 </div>
-
-                <div className="phone-number">
-                  <a
-                    href="https://www.google.com/maps/search/?api=1&query=No+38/68a+Palayakara+Street,Ayanavaram,Chennai"
-                    className="map"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Our Map
-                  </a>
-                </div>
+                {/* The "View Our Map" link has been removed */}
               </div>
             </div>
           </div>
@@ -119,16 +110,12 @@ const ContactMain: React.FC = () => {
           <div className="col-lg-5">
             <div className="contact-form-area">
               <h4>Get In Touch</h4>
-              {/* - The form now calls our `handleSubmit` function.
-                - The `action` and `method` attributes have been removed, as JS handles the submission.
-              */}
               <form 
                 name="contact" 
                 onSubmit={handleSubmit}
                 data-netlify="true" 
                 data-netlify-honeypot="bot-field"
               >
-                {/* This hidden field is required by Netlify. */}
                 <input type="hidden" name="form-name" value="contact" />
                 <p style={{ display: 'none' }}>
                   <label>
@@ -205,7 +192,6 @@ const ContactMain: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                {/* This will now display a success or error message below the form */}
                 {formStatus && <p style={{ marginTop: '15px', color: formStatus.startsWith('Oops') ? 'red' : 'green' }}>{formStatus}</p>}
               </form>
             </div>

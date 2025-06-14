@@ -1,76 +1,39 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const AboutSection = () => {
+const AboutSection = ({ btnClass }: { btnClass?: string }) => {
   return (
-    <div className="about1-section-area sp6 bg-white">
+    <div className="about-section-area sp6">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-4">
-            <div className="">
-              <figure className="">
-                <img
-                  src="assets/img/all-images/about-img1.png"
-                  alt="About Us"
-                />
-              </figure>
-              <img
-                src="assets/img/elements/star1.png"
-                alt="Star Element"
-                className="star1 keyframe5"
-              />
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="about-content-area-2">
+              <div className="heading-area">
+                <span className="sub-title-2">About Us</span>
+                <h2 className="title-2">
+                  Comprehensive SEO & Digital Marketing Solutions.
+                </h2>
+                <p className="p-2">
+                  Welcome to Marina Digitals, your trusted partner for comprehensive SEO and digital marketing solutions. With our proven expertise and innovative strategies the digital landscape.
+                </p>
+              </div>
+              {/* This link now redirects to the main services page */}
+              <Link to="/service1" className={`header-btn-2 ${btnClass || ''}`}>Learn More
+                <span><i className="fa-solid fa-arrow-right"></i></span>
+              </Link>
             </div>
           </div>
-          <div className="col-lg-5">
-            <div className="about-content-area heading2">
-              <div className="arrow-circle">
-                <Link to="/about">
-                  <img
-                    src="assets/img/elements/elements4.png"
-                    alt="Element"
-                    className="elements4 keyframe5"
-                  />
-                  <img
-                    src="assets/img/icons/arrow.svg"
-                    alt="Arrow"
-                    className="arrow"
-                  />
-                </Link>
+          <div className="col-lg-6">
+            <div className="about-img-area-2">
+              <div className="about-img-2">
+                <img src="/assets/img/all-images/about-img-2.png" alt="" />
               </div>
-              <h2>Marina Digitals: Your Partner for Digital Marketing Excellence</h2>
-              <p>
-                Welcome to Marina Digitals, your trusted partner for comprehensive SEO and
-                digital marketing solutions. We are dedicated to helping
-                businesses of all sizes achieve their online marketing goals
-                and drive sustainable growth.
-              </p>
-              <div className="btn-area">
-                <Link to="/about" className="header-btn1">
-                  Learn More
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
-                </Link>
+              <div className="about-img-3">
+                <img src="/assets/img/all-images/about-img-3.png" alt="" />
               </div>
-            </div>
-          </div>
-          <div className="col-lg-3">
-            <div className="about-author-images">
-              <img
-                src="assets/img/elements/elements5.png"
-                alt="Element"
-                className="elements5 keyframe5"
-              />
-              <figure
-                className="image-anime"
-                data-aos="fade-zoom-in"
-                data-aos-delay="300"
-                data-aos-offset="0"
-              >
-                <img
-                  src="assets/img/all-images/about-img2.png"
-                  alt="About Author"
-                />
-              </figure>
+              <div className="about-circle-1"></div>
+              <div className="about-circle-2"></div>
+              <div className="about-circle-3"></div>
             </div>
           </div>
         </div>
