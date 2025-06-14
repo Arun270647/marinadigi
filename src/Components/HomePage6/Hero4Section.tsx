@@ -12,7 +12,7 @@ const Hero4Section: React.FC = () => {
               <img src="/assets/img/elements/plus.png" alt="" className="plus keyframe5" />
               <h5 data-aos="fade-up" data-aos-duration="800">
                 <img src="/assets/img/icons/logo-icons3.svg" alt="" />
-                Top #1 SEO & Marketing Agency
+               Marina Digitals - Your personal SEO & Digital Marketing Agency
               </h5>
               <h1 className="text-anime-style-1">
                 Drive Your Business Forward With Our Expert 

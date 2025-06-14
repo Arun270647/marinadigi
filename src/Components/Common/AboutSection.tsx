@@ -68,7 +68,7 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 data-aos-duration="1200"
               >
                 <Link
-                  to="/about"
+                  to="/service1"
                   className={btnClass ? btnClass : "header-btn12"}
                 >
                   Learn More{" "}

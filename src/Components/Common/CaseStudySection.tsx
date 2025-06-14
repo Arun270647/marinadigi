@@ -86,16 +86,6 @@ const CaseStudySection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
             </div>
             <div className="space60 d-lg-block d-none"></div>
             <div className="space34 d-lg-none d-block"></div>
-            <div
-              className="btn-area1 text-center"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <Link to="/case" className={btnClass ? btnClass : "header-btn12"}>
-                View More Case Study{" "}
-                {!btnClass && <i className="fa-solid fa-arrow-right"></i>}
-              </Link>
-            </div>
           </Col>
         </Row>
       </Container>

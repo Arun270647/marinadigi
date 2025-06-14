@@ -1,5 +1,25 @@
 @use '../../utils/' as * ;
+//=========================
+// Contact header area css
+//=========================
+.contact-header-area {
+    background-image: url(../img/bg/contact-header-bg.png);
 
+    // This rule makes the title and breadcrumb text dark on the contact page hero.
+    .page-header-title,
+    .page-header-breadcrumb a,
+    .page-header-breadcrumb span {
+        color: #192335 !important; // A dark color for better visibility
+    }
+
+    .page-header-breadcrumb a:hover {
+        color: #6155f8 !important; // Keep the primary hover color
+    }
+
+    .about-inner-header h1 {
+        color: #192335 !important;
+    }
+}
 /*============= CONTACT CSS AREA ===============*/
 .contact1-section-area{
     position: relative;

@@ -9,7 +9,6 @@ const workProcesses = [
     title: "Strategy Development",
     description:
       "Based on our findings, we develop customized digital marketing strategy tailored objective.",
-    link: "/case-single",
     duration: 800,
   },
   {
@@ -18,7 +17,6 @@ const workProcesses = [
     title: "Monitoring & Optimization",
     description:
       "We believe in the power of data-driven decision-making. Throughout the campaign.",
-    link: "/case-single",
     duration: 1000,
   },
   {
@@ -27,7 +25,6 @@ const workProcesses = [
     title: "Continuous Improvement",
     description:
       "Digital marketing is an ever-evolving field, and we're committed to staying ahead of the curve.",
-    link: "/case-single",
     duration: 1200,
   },
 ];
@@ -62,19 +59,6 @@ const WorkProcessSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 engaging with your audience on social media,
               </p>
               <div className="space32"></div>
-              <div
-                className="btn-area1"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <Link
-                  to="/case"
-                  className={btnClass ? btnClass : "header-btn12"}
-                >
-                  Learn More{" "}
-                  {!btnClass && <i className="fa-solid fa-arrow-right"></i>}
-                </Link>
-              </div>
             </div>
           </Col>
           <Col lg={1}></Col>
@@ -105,11 +89,8 @@ const WorkProcessSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                 </div>
                 <div className="space24"></div>
                 <div className="content-area">
-                  <Link to={process.link}>{process.title}</Link>
+                  <Link to={process.title}>{process.title}</Link>
                   <p>{process.description}</p>
-                  <Link to={process.link} className="readmore">
-                    Learn More <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </Col>

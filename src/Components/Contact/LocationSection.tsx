@@ -1,3 +1,5 @@
+import React from "react";
+
 // The data type for each location
 type LocationDataType = {
   location: string;
@@ -6,7 +8,7 @@ type LocationDataType = {
   mapLink: string;
 };
 
-// An array of all your location data, now with only the first item
+// An array of all your location data
 const locations: LocationDataType[] = [
   {
     location: "Ayanavaram, Chennai",
@@ -47,11 +49,18 @@ const LocationSection = () => {
   return (
     <div className="location-section-area sp2 bg2">
       <div className="container">
-        {/* The location header has been removed as requested */}
+        {/* The location header has been added back */}
+        <div className="row">
+          <div className="col-lg-4 m-auto">
+            <div className="location-header text-center heading2">
+              <h5>Location</h5>
+              <h2>Our Location</h2>
+            </div>
+          </div>
+        </div>
         <div className="space60 d-lg-block d-none"></div>
         <div className="space30 d-lg-none d-block"></div>
         <div className="row justify-content-center">
-          {/* We map over the locations array and render a LocationBox for each one */}
           {locations.map((loc) => (
             <LocationBox
               key={loc.location}

@@ -16,7 +16,7 @@ const AboutSection = () => {
                   Welcome to Marina Digitals, your trusted partner for comprehensive SEO and digital marketing solutions. With our proven expertise and innovative strategies the digital landscape.
                 </p>
               </div>
-              <Link to="/service-1" className="header-btn-2">Learn More
+              <Link to="/service1" className="header-btn-2">Learn More
                 <span><i className="fa-solid fa-arrow-right"></i></span>
               </Link>
             </div>

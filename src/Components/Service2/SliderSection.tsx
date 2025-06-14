@@ -30,18 +30,12 @@ const CompanySliderSection: React.FC<{ className: string }> = ({
             <div className="col-lg-2">
               <div className="slider-head">
                 <p>
-                  Trusted by <br className="d-lg-block d-none" /> Top Companies
+                  Our Clients
                 </p>
               </div>
             </div>
-            <div className="col-lg-10">
-              <Slider {...settings} className="slider-images-area">
-                {brandImages.map((item, index) => (
-                  <div key={index} className={`img1`}>
-                    <img src={item} alt={`Brand ${index + 1}`} />
-                  </div>
-                ))}
-              </Slider>
+            <div className="col-lg-10 d-flex justify-content-center align-items-center" style={{minHeight: '120px'}}>
+              <img src="/assets/img/logo/cp_new_logo.png" alt="Client Logo" style={{height: '100px', width: 'auto'}} />
             </div>
           </div>
         </div>

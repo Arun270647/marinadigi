@@ -4,16 +4,15 @@ import { Container, Row, Col } from "react-bootstrap";
 
 // Define the Footer component
 const Footer3: React.FC = () => {
+  // The socialLinks array has been updated to remove Facebook and YouTube
   const socialLinks = [
-    { href: "#", src: "/assets/img/icons/facebook4.svg", alt: "Facebook" },
-    { href: "#", src: "/assets/img/icons/instagram4.svg", alt: "Instagram" },
-    { href: "#", src: "/assets/img/icons/linkedin4.svg", alt: "LinkedIn" },
-    { href: "#", src: "/assets/img/icons/youtube.svg", alt: "YouTube" },
+    { href: "https://www.instagram.com/marina_digitals/", src: "/assets/img/icons/instagram4.svg", alt: "Instagram" },
+    { href: "https://www.linkedin.com/company/marina-digitals/?viewAsMember=true", src: "/assets/img/icons/linkedin4.svg", alt: "LinkedIn" },
   ];
 
   const aboutLinks = [
     { to: "/about", text: "About Us" },
-    { to: "/service1", text: "Services" },
+    { to: "/service-1", text: "Services" },
     { to: "/case", text: "Marketing" },
     { to: "/contact", text: "Contact Us" },
   ];
@@ -62,7 +61,7 @@ const Footer3: React.FC = () => {
                 <li>
                   <a href="mailto:info@marinadigitals.com" className="d-inline-flex align-items-center">
                     <img src="/assets/img/icons/email.svg" alt="Email" className="me-2" />
-                    <span>admin@marinadigi.com</span>
+                    <span>admin@marinadigitals.com</span>
                   </a>
                 </li>
                 <li>
@@ -75,7 +74,7 @@ const Footer3: React.FC = () => {
                     <span>
                       No38/68a palayakara street,
                       <br className="d-lg-block d-none" />
-                      Ayanavaram,Chennai-600023                  
+                      Ayanavaram,Chennai-600023
                     </span>
                   </a>
                 </li>

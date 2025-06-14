@@ -55,7 +55,7 @@ const AboutSection: React.FC = () => {
                 data-aos="fade-left"
                 data-aos-duration="1200"
               >
-                <Link to="/about" className="header-btn1">
+                <Link to="/service1" className="header-btn1">
                   Learn More
                   <span>
                     <i className="fa-solid fa-arrow-right"></i>
