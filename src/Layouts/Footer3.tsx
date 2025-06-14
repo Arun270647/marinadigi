@@ -18,11 +18,11 @@ const Footer3: React.FC = () => {
   ];
 
   return (
-    <footer className="footer4-section-area d-flex justify-content-center align-items-center" >
+    <footer className="footer4-section-area">
       <Container>
-        <Row className="justify-content-center text-center">
-          <Col lg={3} md={6}>
-            <div className="footer-logo-area">
+        <Row className="g-4">
+          <Col lg={4} md={6}>
+            <div className="footer-logo-area text-start">
               <img src="/assets/img/logo/footer-logo.png" alt="Logo" />
               <p>
                 By optimizing content, leveraging relevant keywords, and
@@ -41,8 +41,8 @@ const Footer3: React.FC = () => {
             </div>
           </Col>
 
-          <Col lg={2} md={6}>
-            <div className="footer-logo-area1">
+          <Col lg={3} md={6}>
+            <div className="footer-logo-area1 text-start">
               <h3>About Link</h3>
               <ul className="list-unstyled">
                 {aboutLinks.map((link, index) => (
@@ -54,8 +54,8 @@ const Footer3: React.FC = () => {
             </div>
           </Col>
 
-          <Col lg={3} md={6}>
-            <div className="footer-logo-area2">
+          <Col lg={5} md={12}>
+            <div className="footer-logo-area2 text-start">
               <h3>Get in touch</h3>
               <ul className="list-unstyled">
                 <li>
@@ -93,7 +93,7 @@ const Footer3: React.FC = () => {
         <div className="space40 d-lg-none d-block"></div>
         <Row>
           <Col lg={12}>
-            <div className="copyright-area d-flex flex-column align-items-center">
+            <div className="copyright-area text-start">
               <div className="pera">
                 <p>ⓒCopyright 2025 Marina Digitals . All rights reserved</p>
               </div>
