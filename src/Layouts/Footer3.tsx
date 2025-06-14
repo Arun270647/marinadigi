@@ -92,21 +92,12 @@ const Footer3: React.FC = () => {
         <div className="space80 d-lg-block d-none"></div>
         <div className="space40 d-lg-none d-block"></div>
         <Row>
-          <Col lg={12}>
-            <div className="copyright-area text-start">
+          <Col lg={12}> 
+
+            <div className="copyright-area text-center">
               <div className="pera">
-                <p>ⓒCopyright 2025 Marina Digitals . All rights reserved</p>
+                <p>ⓒ2025 Marina Digitals . All rights reserved</p>
               </div>
-              <ul className="list-inline mb-0">
-                <li className="list-inline-item">
-                  <Link to="#">Terms & Conditions</Link>
-                </li>
-                <li className="list-inline-item">
-                  <Link to="#" className="m-0">
-                    Privacy Policy
-                  </Link>
-                </li>
-              </ul>
             </div>
           </Col>
         </Row>
