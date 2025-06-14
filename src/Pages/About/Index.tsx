@@ -1,4 +1,3 @@
-import HistorySection from "../../Components/About/HistorySection";
 import SkillsSection from "../../Components/About/SkillsSection";
 import WhyChooseUs from "../../Components/About/WhyChooseUs";
 import CompanySliderSection from "../../Components/Common/CompanySliderSection";

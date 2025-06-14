@@ -1,5 +1,4 @@
 import AboutSection from "../../Components/Common/AboutSection";
-import BlogSection from "../../Components/Common/BlogSection";
 import CaseStudySection from "../../Components/Common/CaseStudySection";
 import Cta2Section from "../../Components/Common/Cta2Section";
 import ServiceSection from "../../Components/Common/ServiceSection";
