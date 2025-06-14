@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
-const AboutSection = ({ btnClass }: { btnClass?: string }) => {
+const AboutSection = () => {
   return (
     <div className="about-section-area sp6">
       <div className="container">
@@ -17,8 +16,7 @@ const AboutSection = ({ btnClass }: { btnClass?: string }) => {
                   Welcome to Marina Digitals, your trusted partner for comprehensive SEO and digital marketing solutions. With our proven expertise and innovative strategies the digital landscape.
                 </p>
               </div>
-              {/* This link now redirects to the main services page */}
-              <Link to="/service1" className={`header-btn-2 ${btnClass || ''}`}>Learn More
+              <Link to="/service-1" className="header-btn-2">Learn More
                 <span><i className="fa-solid fa-arrow-right"></i></span>
               </Link>
             </div>
