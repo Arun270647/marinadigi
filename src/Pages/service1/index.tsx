@@ -19,11 +19,7 @@ const Service1Page = () => {
   return (
     <>
       <Header />
-      <PageHero
-        className="about-header-area"
-        title={"Our Best Services"}
-        breadcrumb={["Home", "Our Best Services"]}
-      />
+      
       <ServiceSection1 />
       <WorksSection1 />
       <CtaSection />
