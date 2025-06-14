@@ -10,10 +10,6 @@ const Hero4Section: React.FC = () => {
           <Col lg={8} className="m-auto">
             <div className="hero4-header text-center heading7">
               <img src="/assets/img/elements/plus.png" alt="" className="plus keyframe5" />
-              <h5 data-aos="fade-up" data-aos-duration="800">
-                <img src="/assets/img/icons/logo-icons3.svg" alt="" />
-               Marina Digitals - Your personal SEO & Digital Marketing Agency
-              </h5>
               <h1 className="text-anime-style-1">
                 Drive Your Business Forward With Our Expert 
                 <img src="/assets/img/all-images/header-pera1.png" alt="" />
@@ -24,9 +20,8 @@ const Hero4Section: React.FC = () => {
               </h1>
               <div className="space20"></div>
               <p data-aos="fade-up" data-aos-duration="1000">
-                Welcome to Marina Digitals where we specialize in revolutionizing your online 
+                Welcome to Marina Digitals, we specialize in revolutionizing your online presence through expert SEO and digital marketing solutions.
                 <br className="d-lg-block d-none" />
-                presence through expert SEO and digital marketing solutions.
               </p>
               <div className="btn-area1" data-aos="fade-up" data-aos-duration="1200">
                
