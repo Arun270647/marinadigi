@@ -2,14 +2,24 @@ import WorksSection from "../../Components/Case-Single/WorksSection";
 import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
 import AboutSection from "../../Components/Service2/AboutSection";
-import AnalysisSection from "../../Components/Service2/AnalysisSection";
+// import AnalysisSection from "../../Components/Service2/AnalysisSection";
 import ChooseSection from "../../Components/Service2/ChooseSection";
-import CtaSectionService2 from "../../Components/Service2/CtaSection";
+// import CtaSectionService2 from "../../Components/Service2/CtaSection";
 import SliderSection from "../../Components/Service2/SliderSection";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
+import { useEffect } from "react";
 
 const Service2Page = () => {
+    useEffect(() => {
+        const landingSection = document.getElementById('service');
+        if (landingSection) {
+            landingSection.scrollIntoView({ behavior: 'auto' });
+        } else {
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+    }, []);
+
     return (
         <>
             <Header />
@@ -22,8 +32,8 @@ const Service2Page = () => {
             <div className="space60"></div>
             <SliderSection className={'slider-section-area slider-inner sp5'} />
             <WorksSection/>
-            <CtaSectionService2/>
-            <AnalysisSection/>
+            {/* <CtaSectionService2/> */}
+            {/* <AnalysisSection/> */}
             <ChooseSection/>
             <CtaSection />
             <Footer />

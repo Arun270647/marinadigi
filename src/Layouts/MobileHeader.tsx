@@ -34,9 +34,9 @@ const navItems: NavItem[] = [
     subMenu: [
       { title: "Our Best Services", link: "/service1" }, 
       { title: "SEO", link: "/service2" },
-      { title: "Pay Per Click", link: "/service3" },
-      { title: "Email Marketing", link: "/service4" },
-      { title: "Social Media Marketing", link: "/service5" }
+      // { title: "Pay Per Click", link: "/service3" }, // PPC commented out
+      { title: "Email Marketing", link: "/service4" },
+      { title: "Social Media Marketing", link: "/service5" }
     ],
   },
   { title: "Pricings", link: "/pricing" },

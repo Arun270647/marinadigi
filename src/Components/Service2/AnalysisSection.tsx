@@ -1,3 +1,4 @@
+/*
 import { Link } from "react-router-dom";
 
 const AnalysisSection: React.FC = () => {
@@ -319,3 +320,4 @@ const AnalysisSection: React.FC = () => {
 };
 
 export default AnalysisSection;
+*/

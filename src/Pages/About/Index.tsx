@@ -8,8 +8,13 @@ import AboutSection from "../../Pages/About/AboutSection";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
 import MobileHeaderSidebar from "../../Layouts/MobileHeader";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
+
   return (
     <>
       <Header />

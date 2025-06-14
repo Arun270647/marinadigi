@@ -59,12 +59,7 @@ const StepSection: React.FC<StepSectionProps> = ({
           <p>{description}</p>
           <div className="space32"></div>
           <div className="btn-area1">
-            <Link to={buttonLink} className="header-btn1">
-              {buttonText}{" "}
-              <span>
-                <i className="fa-solid fa-arrow-right"></i>
-              </span>
-            </Link>
+            {/* Button removed as per request */}
           </div>
         </div>
       </div>

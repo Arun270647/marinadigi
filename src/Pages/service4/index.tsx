@@ -8,7 +8,17 @@ import CtaSection from "../../Components/Common/CtaSection";
 import Footer from "../../Layouts/Footer3";
 import ServiceInnerHeader from "../../Components/Service4/ServiceInnerHeader";
 import WorksSection from "../../Components/Service2/WorksSection";
+import { useEffect } from "react";
+
 const Service4Page = () => {
+  useEffect(() => {
+    const landingSection = document.getElementById('service');
+    if (landingSection) {
+      landingSection.scrollIntoView({ behavior: 'auto' });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  }, []);
 
   return (
     <>
@@ -21,8 +31,8 @@ const Service4Page = () => {
       <ServiceInnerHeader />
       <SliderSection className={"slider-section-area slider-inner sp5"} />
       <WorksSection />
-      <CtaSectionService2 />
-      <AnalysisSection />
+      {/* <CtaSectionService2 /> */}
+      {/* <AnalysisSection /> */}
       <ChooseSection />
       <CtaSection />
       <Footer />

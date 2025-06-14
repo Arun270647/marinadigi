@@ -14,10 +14,9 @@ const menuItems: MenuItem[] = [
     label: " Our Services",
     to: "#", 
     dropdown: [
-     
       { label: "Our Best Servieces", to: "/service1" }, 
       { label: "SEO", to: "/service2" },
-      { label: "Pay Per Click", to: "/service3" },
+      // { label: "Pay Per Click", to: "/service3" }, // PPC commented out
       { label: "Email Marketing", to: "/service4" },
       { label: "Social Media Marketing", to: "/service5" }
       // ...
@@ -65,7 +64,7 @@ const Header6: React.FC = () => {
                 <ul className="m-0">
                   {/* Simplified Home Link */}
                   <li>
-                    <Link to="/">Home</Link> {/* Direct link to the landing page */}
+                    <Link to="/" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link>
                   </li>
 
                   {/* Render other menu items */}
