@@ -75,18 +75,16 @@ const Footer3: React.FC = () => {
                       className="me-2"
                     />
                     <span>
-                      8708 Technology Forest
+                      No38/68a palayakara street,
                       <br className="d-lg-block d-none" />
-                      Pl Suite 125 -G, The
-                      <br className="d-lg-block d-none" />
-                      Woodlands, TX 773
+                      Ayanavaram,Chennai-600023                  
                     </span>
                   </a>
                 </li>
                 <li>
                   <a href="tel:123-456-7890" className="d-inline-flex align-items-center">
                     <img src="/assets/img/icons/phone.svg" alt="Phone" className="me-2" />
-                    <span>123-456-7890</span>
+                    <span>+91 97899 03547</span>
                   </a>
                 </li>
               </ul>
@@ -100,7 +98,7 @@ const Footer3: React.FC = () => {
           <Col lg={12}>
             <div className="copyright-area d-flex flex-column align-items-center">
               <div className="pera">
-                <p>ⓒCopyright 2024 Marina Digitals . All rights reserved</p>
+                <p>ⓒCopyright 2025 Marina Digitals . All rights reserved</p>
               </div>
               <ul className="list-inline mb-0">
                 <li className="list-inline-item">
