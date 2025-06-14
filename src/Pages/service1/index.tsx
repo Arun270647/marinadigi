@@ -1,4 +1,3 @@
-import SkillsSection from "../../Components/About/SkillsSection";
 import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
 import ServiceSection1 from "../../Components/Service1/ServiceSection1";
