@@ -1,65 +1,39 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
-type StepSectionProps = {
+// Define the props for the StepSection component
+interface StepSectionProps {
   stepNumber: string;
   title: string;
   description: string;
-  buttonText: string;
-  buttonLink: string;
-  reverse?: boolean;
   images: string[];
-};
+  reverse?: boolean;
+}
 
 const StepSection: React.FC<StepSectionProps> = ({
   stepNumber,
   title,
   description,
-  buttonText,
-  buttonLink,
-  reverse,
   images,
+  reverse,
 }) => {
+  const imageColumnClass = reverse ? 'col-lg-7 order-lg-1' : 'col-lg-7';
+  const textColumnClass = reverse ? 'col-lg-5 order-lg-2' : 'col-lg-5';
+
   return (
-    <div
-      className={`row align-items-center ${reverse ? "flex-row-reverse" : ""}`}
-    >
-      <div className="col-lg-6">
-        <div className="about-all-images-area">
-          <img
-            src="/assets/img/elements/elements14.png"
-            alt=""
-            className="elements12 keyframe5"
-          />
-          <img
-            src="/assets/img/elements/elements15.png"
-            alt=""
-            className="elements13 keyframe5"
-          />
-          <div className="row">
-            {images.map((image, index) => (
-              <div className="col-lg-6 col-md-6" key={index}>
-                <div className={`img${index + 1}`}>
-                  {index === 0 && <div className="space100"></div>}
-                  <img src={image} alt="" />
-                </div>
-              </div>
+    <div className="step-section">
+      <div className="row align-items-center">
+        <div className={imageColumnClass}>
+          <div className="step-images">
+            {images.map((src, index) => (
+              <img key={index} src={src} alt={`Step ${stepNumber} illustration ${index + 1}`} />
             ))}
           </div>
         </div>
-      </div>
-      <div className="col-lg-6">
-        <div
-          className={`works-header-area heading2 ${
-            stepNumber === "Step 01" ? "specing2" : ""
-          }`}
-        >
-          <h5>{stepNumber}</h5>
-          <h2>{title}</h2>
-          <p>{description}</p>
-          <div className="space32"></div>
-          <div className="btn-area1">
-            {/* Button removed as per request */}
+        <div className={textColumnClass}>
+          <div className="step-content">
+            <div className="step-number">{stepNumber}</div>
+            <h3 className="step-title">{title}</h3>
+            <p className="step-description">{description}</p>
           </div>
         </div>
       </div>
