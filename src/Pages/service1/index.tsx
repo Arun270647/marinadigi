@@ -27,7 +27,6 @@ const Service1Page = () => {
       />
       <ServiceSection1 />
       <WorksSection1 />
-      <SkillsSection />
       <CtaSection />
       <Footer />
     </>
