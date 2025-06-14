@@ -18,8 +18,8 @@ const HomePage6 = () => {
       <Hero4Section />
       <AboutSection btnClass="header-btn6" />
       <ServiceSection btnClass="header-btn6" />
-      <CaseStudySection btnClass="header-btn6" />
-      <WorkProcessSection btnClass="header-btn6" />
+      <CaseStudySection/>
+      <WorkProcessSection />
       {/*<BlogSection />*/}
       <Cta2Section btnClass="header-btn7" />
       <Footer3 />
