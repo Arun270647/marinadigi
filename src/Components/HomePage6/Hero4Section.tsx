@@ -12,7 +12,6 @@ const Hero4Section: React.FC = () => {
               <img src="/assets/img/elements/plus.png" alt="" className="plus keyframe5" />
               <h1 className="text-anime-style-1">
                 Drive Your Business Forward With Our Expert 
-                <img src="/assets/img/all-images/header-pera1.png" alt="" />
                 <span>Digital Marketing 
                   <img src="/assets/img/elements/line-img1.png" alt="" />
                 </span>
