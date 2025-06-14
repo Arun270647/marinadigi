@@ -1,5 +1,4 @@
 import AboutSection from "../../Components/Common/AboutSection";
-import CaseStudySection from "../../Components/Common/CaseStudySection";
 import Cta2Section from "../../Components/Common/Cta2Section";
 import ServiceSection from "../../Components/Common/ServiceSection";
 import WorkProcessSection from "../../Components/Common/WorkProcessSection";
@@ -18,7 +17,6 @@ const HomePage6 = () => {
       <Hero4Section />
       <AboutSection btnClass="header-btn6" />
       <ServiceSection btnClass="header-btn6" />
-      <CaseStudySection/>
       <WorkProcessSection />
       {/*<BlogSection />*/}
       <Cta2Section btnClass="header-btn7" />

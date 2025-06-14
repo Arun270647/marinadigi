@@ -29,7 +29,7 @@ const Hero4Section: React.FC = () => {
                 presence through expert SEO and digital marketing solutions.
               </p>
               <div className="btn-area1" data-aos="fade-up" data-aos-duration="1200">
-                <Link to="/contact" className="header-btn6">START RANKING NOW</Link>
+               
                 <Link to="/contact" className="header-btn7">GET STARTED NOW</Link>
               </div>
             </div>
