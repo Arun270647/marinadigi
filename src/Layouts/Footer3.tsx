@@ -12,11 +12,9 @@ const Footer3: React.FC = () => {
   ];
 
   const aboutLinks = [
-    { to: "/blog-left", text: "Our Blog" },
     { to: "/about", text: "About Us" },
     { to: "/service1", text: "Services" },
     { to: "/case", text: "Marketing" },
-    { to: "/testimonials", text: "Testimonials" },
     { to: "/contact", text: "Contact Us" },
   ];
 
