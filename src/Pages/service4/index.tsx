@@ -1,9 +1,6 @@
 import PageHero from "../../Components/Common/PageHero";
 import Header from "../../Layouts/Header6";
 import SliderSection from "../../Components/Service2/SliderSection";
-import CtaSectionService2 from "../../Components/Service2/CtaSection";
-import AnalysisSection from "../../Components/Service2/AnalysisSection";
-import ChooseSection from "../../Components/Service2/ChooseSection";
 import CtaSection from "../../Components/Common/CtaSection";
 import Footer from "../../Layouts/Footer3";
 import ServiceInnerHeader from "../../Components/Service4/ServiceInnerHeader";
@@ -33,7 +30,6 @@ const Service4Page = () => {
       <WorksSection />
       {/* <CtaSectionService2 /> */}
       {/* <AnalysisSection /> */}
-      <ChooseSection />
       <CtaSection />
       <Footer />
     </>
