@@ -5,8 +5,8 @@ const AboutSection: React.FC = () => {
   return (
     <div className="about1-section-area sp6" id="about">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-4">
+        <div className="row align-items-center g-4">
+          <div className="col-lg-4 col-md-6">
             <div className="about-images">
               <figure
                 className="image-anime"
@@ -14,38 +14,34 @@ const AboutSection: React.FC = () => {
                 data-aos-delay="300"
                 data-aos-offset="0"
               >
+                <div className="about-content-area heading2 mb-4">
+                  <h2 className="title-2 fw-bold mb-3 fs-2 text-lg-start"
+                  >
+                    Comprehensive SEO & Digital Marketing Solutions.
+                  </h2>
+                </div>
                 <img
                   src="/assets/img/all-images/about-img1.png"
                   alt="About"
+                  className="img-fluid"
+                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </figure>
               <img
                 src="/assets/img/elements/star1.png"
                 alt="Star"
                 className="star1 keyframe5"
+                style={{ maxWidth: '50px', height: 'auto' }}
               />
             </div>
           </div>
-          <div className="col-lg-5">
-            <div className="about-content-area heading2">
-              <div className="arrow-circle">
-                <Link to="/about">
-                  <img
-                    src="/assets/img/elements/elements4.png"
-                    alt="Element"
-                    className="elements4 keyframe5"
-                  />
-                  <img
-                    src="/assets/img/icons/arrow.svg"
-                    alt="Arrow"
-                    className="arrow"
-                  />
-                </Link>
-              </div>
-              <h2 className="text-anime-style-3">
-                Comprehensive SEO & Digital Marketing Solutions.
-              </h2>
-              <p data-aos="fade-left" data-aos-duration="1000">
+          <div className="col-lg-5 col-md-6">
+            <div className="about-content">
+              <p 
+                className="fs-5 mb-4" 
+                data-aos="fade-left" 
+                data-aos-duration="1000"
+              >
                 Welcome to Marina Digitals, your trusted partner for comprehensive SEO and
                 digital marketing solutions. With our proven expertise and
                 innovative strategies the digital landscape.
@@ -55,21 +51,22 @@ const AboutSection: React.FC = () => {
                 data-aos="fade-left"
                 data-aos-duration="1200"
               >
-                <Link to="/service1" className="header-btn1">
+                <Link to="/service1" className="header-btn1 fs-5">
                   Learn More
-                  <span>
+                  <span className="ms-2">
                     <i className="fa-solid fa-arrow-right"></i>
                   </span>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="about-auhtor-images">
               <img
                 src="/assets/img/elements/elements5.png"
                 alt="Element"
                 className="elements5 keyframe5"
+                style={{ maxWidth: '100px', height: 'auto' }}
               />
               <figure
                 className="image-anime"
@@ -80,6 +77,8 @@ const AboutSection: React.FC = () => {
                 <img
                   src="/assets/img/all-images/about-img2.png"
                   alt="About Author"
+                  className="img-fluid"
+                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </figure>
             </div>
