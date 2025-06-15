@@ -37,19 +37,20 @@ const stepsData = [
 
 const WorksSection = () => {
   return (
-    <div className="works-inner-section-area sp1">
+    <div className="works-inner-section-area">
       <div className="container">
         {stepsData.map((step, index) => (
           <React.Fragment key={index}>
             <StepSection {...step} />
             {index < stepsData.length - 1 && (
               <>
-                <div className="space100 d-lg-block d-none"></div>
-                <div className="space30 d-lg-none d-block"></div>
+                {/* Removed: <div className="space100 d-lg-block d-none"></div> */}
+                {/* Removed: <div className="space30 d-lg-none d-block"></div> */}
               </>
             )}
           </React.Fragment>
         ))}
+        <div style={{marginBottom: '64px'}}></div>
       </div>
     </div>
   );
