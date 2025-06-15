@@ -3,7 +3,6 @@ import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
 import AboutSection from "../../Components/Service2/AboutSection";
 import ChooseSection from "../../Components/Service2/ChooseSection";
-import SliderSection from "../../Components/Service2/SliderSection";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
 import { useEffect } from "react";

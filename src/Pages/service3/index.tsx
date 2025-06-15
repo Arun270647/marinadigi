@@ -1,5 +1,4 @@
 
-import HistorySection from "../../Components/About/HistorySection";
 import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
 import Footer from "../../Layouts/Footer3";
