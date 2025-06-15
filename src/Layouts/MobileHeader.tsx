@@ -39,21 +39,17 @@ const navItems: NavItem[] = [
       { title: "Social Media Marketing", link: "/service5" }
     ],
   },
-  { title: "Pricings", link: "/pricing" },
-  { title: "Contact Us", link: "/contact" },
 ];
 
 const contactInfo: ContactInfoItem[] = [
-  { icon: "fa-phone-volume", text: "+3(924)4596512", link: "tel:+39244596512" },
-  { icon: "fa-envelope", text: "info@example.com", link: "mailto:info@example.com" },
-  { icon: "fa-location-dot", text: "55 East Birchwood Ave. Brooklyn, New York 11201, United States" }
+  { icon: "fa-phone-volume", text: "+91 97899 03547", link: "tel:+91 97899 03547" },
+  { icon: "fa-envelope", text: "admin@marinadigitals.com", link: "mailto:admin@marinadigitals.com" },
+  { icon: "fa-location-dot", text: "No38/68a palayakara street, Ayanavaram,Chennai-600023 " }
 ];
 
 const socialLinks: SocialLink[] = [
-  { icon: "fa-facebook-f", link: "#" },
-  { icon: "fa-instagram", link: "#" },
-  { icon: "fa-linkedin-in", link: "#" },
-  { icon: "fa-youtube", link: "#" },
+  { icon: "fa-instagram", link: "https://www.instagram.com/marina_digitals/" },
+  { icon: "fa-linkedin-in", link: "https://www.linkedin.com/company/marina-digitals/?viewAsMember=true" },
 ];
 
 // Navigation List Component

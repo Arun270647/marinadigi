@@ -59,7 +59,7 @@ const Footer3: React.FC = () => {
               <h3>Get in touch</h3>
               <ul className="list-unstyled">
                 <li>
-                  <a href="mailto:info@marinadigitals.com" className="d-inline-flex align-items-center">
+                  <a href="mailto:admin@marinadigitals.com" className="d-inline-flex align-items-center">
                     <img src="/assets/img/icons/email.svg" alt="Email" className="me-2" />
                     <span>admin@marinadigitals.com</span>
                   </a>
@@ -79,7 +79,7 @@ const Footer3: React.FC = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:123-456-7890" className="d-inline-flex align-items-center">
+                  <a href="tel:91 97899 03547" className="d-inline-flex align-items-center">
                     <img src="/assets/img/icons/phone.svg" alt="Phone" className="me-2" />
                     <span>+91 97899 03547</span>
                   </a>
