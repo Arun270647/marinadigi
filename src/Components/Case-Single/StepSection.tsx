@@ -16,9 +16,6 @@ const StepSection: React.FC<StepSectionProps> = ({
   images,
   reverse,
 }) => {
-  const imageColumnClass = reverse ? 'col-lg-7 order-lg-1' : 'col-lg-7';
-  const textColumnClass = reverse ? 'col-lg-5 order-lg-2' : 'col-lg-5';
-
   return (
     <div className="service-inner-header sp8" style={{ marginBottom: '64px' }}>
       <div className="container">
