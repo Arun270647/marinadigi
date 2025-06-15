@@ -2,9 +2,7 @@ import WorksSection from "../../Components/Case-Single/WorksSection";
 import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
 import AboutSection from "../../Components/Service2/AboutSection";
-// import AnalysisSection from "../../Components/Service2/AnalysisSection";
 import ChooseSection from "../../Components/Service2/ChooseSection";
-// import CtaSectionService2 from "../../Components/Service2/CtaSection";
 import SliderSection from "../../Components/Service2/SliderSection";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
@@ -26,14 +24,10 @@ const Service2Page = () => {
             <PageHero
                 className="about-header-area"
                 title={"Search Engine Optimization"}
-                breadcrumb={["Home", "Services", "SEO"]}
+                breadcrumb={[""]}
             />
             <AboutSection />
-            <div className="space60"></div>
-            <SliderSection className={'slider-section-area slider-inner sp5'} />
             <WorksSection/>
-            {/* <CtaSectionService2/> */}
-            {/* <AnalysisSection/> */}
             <ChooseSection/>
             <CtaSection />
             <Footer />
