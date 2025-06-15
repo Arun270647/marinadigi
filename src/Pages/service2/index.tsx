@@ -5,6 +5,7 @@ import AboutSection from "../../Components/Service2/AboutSection";
 import ChooseSection from "../../Components/Service2/ChooseSection";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
+import MobileHeaderSidebar from "../../Layouts/MobileHeader";
 import { useEffect } from "react";
 
 const Service2Page = () => {
@@ -19,6 +20,7 @@ const Service2Page = () => {
 
     return (
         <>
+            <MobileHeaderSidebar />
             <Header />
             <PageHero
                 className="about-header-area"

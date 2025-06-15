@@ -1,8 +1,8 @@
-
 import CtaSection from "../../Components/Common/CtaSection";
 import PageHero from "../../Components/Common/PageHero";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
+import MobileHeaderSidebar from "../../Layouts/MobileHeader";
 import BenefitsSection from "../../Components/Service3/BenefitsSection";
 import ChooseSection from "../../Components/Service2/ChooseSection";
 import { useEffect } from "react";
@@ -19,6 +19,7 @@ const Service3Page = () => {
 
   return (
     <>
+      <MobileHeaderSidebar />
       <Header />
       <PageHero
         className="about-header-area"

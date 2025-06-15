@@ -1,5 +1,6 @@
 import PageHero from "../../Components/Common/PageHero";
 import Header from "../../Layouts/Header6";
+import MobileHeaderSidebar from "../../Layouts/MobileHeader";
 import CtaSection from "../../Components/Common/CtaSection";
 import Footer from "../../Layouts/Footer3";
 import ServiceInnerHeader from "../../Components/Service4/ServiceInnerHeader";
@@ -18,6 +19,7 @@ const Service4Page = () => {
 
   return (
     <>
+      <MobileHeaderSidebar />
       <Header />
       <PageHero
         className="about-header-area"

@@ -3,6 +3,7 @@ import PageHero from "../../Components/Common/PageHero";
 import ChooseSection from "../../Components/Service2/ChooseSection";
 import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
+import MobileHeaderSidebar from "../../Layouts/MobileHeader";
 import ServiceInner5Header from "../../Components/Service5/ServiceInnerHeader";
 import ServiceSection from "../../Components/Service5/ServiceSection";
 import { useEffect } from "react";
@@ -19,6 +20,7 @@ const Service5Page = () => {
 
     return (
         <>
+            <MobileHeaderSidebar />
             <Header />
             <PageHero
                 className="about-header-area"
