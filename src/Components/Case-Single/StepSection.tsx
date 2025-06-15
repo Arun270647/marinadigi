@@ -20,21 +20,40 @@ const StepSection: React.FC<StepSectionProps> = ({
   const textColumnClass = reverse ? 'col-lg-5 order-lg-2' : 'col-lg-5';
 
   return (
-    <div className="step-section">
-      <div className="row align-items-center">
-        <div className={imageColumnClass}>
-          <div className="step-images">
-            {images.map((src, index) => (
-              <img key={index} src={src} alt={`Step ${stepNumber} illustration ${index + 1}`} />
-            ))}
-          </div>
-        </div>
-        <div className={textColumnClass}>
-          <div className="step-content">
-            <div className="step-number">{stepNumber}</div>
-            <h3 className="step-title">{title}</h3>
-            <p className="step-description">{description}</p>
-          </div>
+    <div className="service-inner-header sp8" style={{ marginBottom: '64px' }}>
+      <div className="container">
+        <div className="row align-items-center">
+          {reverse ? (
+            <>
+              <div className="col-lg-6" style={{ paddingLeft: '32px', paddingRight: '32px' }}>
+                <div className="service-textarea heading2">
+                  <div className="step-number" style={{ marginBottom: '8px' }}>{stepNumber}</div>
+                  <h2 style={{ fontWeight: 600, fontSize: '2rem', marginBottom: '16px' }}>{title}</h2>
+                  <p className="step-description">{description}</p>
+                </div>
+              </div>
+              <div className="col-lg-6" style={{ paddingLeft: '32px', paddingRight: '32px' }}>
+                <div className="service-images">
+                  <img src={images[0]} alt={title} style={{ maxWidth: '380px', width: '100%', height: 'auto', borderRadius: '32px', objectFit: 'cover' }} />
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="col-lg-6" style={{ paddingLeft: '32px', paddingRight: '32px' }}>
+                <div className="service-images">
+                  <img src={images[0]} alt={title} style={{ maxWidth: '380px', width: '100%', height: 'auto', borderRadius: '32px', objectFit: 'cover' }} />
+                </div>
+              </div>
+              <div className="col-lg-6" style={{ paddingLeft: '32px', paddingRight: '32px' }}>
+                <div className="service-textarea heading2">
+                  <div className="step-number" style={{ marginBottom: '8px' }}>{stepNumber}</div>
+                  <h2 style={{ fontWeight: 600, fontSize: '2rem', marginBottom: '16px' }}>{title}</h2>
+                  <p className="step-description">{description}</p>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

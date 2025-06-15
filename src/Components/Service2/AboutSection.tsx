@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AboutSection: React.FC = () => {
     return (
-        <div className="about1-section-area sp6">
+        <div className="about1-section-area">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-4">

@@ -3,7 +3,7 @@
 /*============= ABOUT CSS AREA ===============*/
 .about1-section-area {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     .about-images {
         position: relative;
         img {
@@ -517,7 +517,7 @@
 .about-header-area {
     position: relative;
     z-index: 1;
-    padding: 160px 0 80px;
+    padding: 115px 0 0px;
     .elements1 {
         position: absolute;
         z-index: -1;
@@ -529,6 +529,7 @@
         h1 {
             color: var(--ztc-text-text-2);
             transition: all .4s;
+            margin-bottom: 0px;
         }
         a {
             font-family: var(--ztc-family-font1);
@@ -540,7 +541,7 @@
             transition: all .4s;
             line-height: var(--ztc-font-size-font-s24);
             i {
-                margin: 0 8px;
+                margin: 0 2px;
             }
             span {
                 display: inline-block;

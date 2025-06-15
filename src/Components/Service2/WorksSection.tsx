@@ -11,14 +11,14 @@ const WorksSection: React.FC = () => {
                         <div className="about-all-images-area">
                             <img src="/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
                             <img src="/assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
+                            <div className="row d-flex align-items-center justify-content-center">
+                                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img1">
                                         <div className="space100"></div>
                                         <img src="/assets/img/all-images/about-img6.png" alt="" />
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img2">
                                         <img src="/assets/img/all-images/service-img5.png" alt="" />
                                     </div>
@@ -55,14 +55,14 @@ const WorksSection: React.FC = () => {
                         <div className="about-all-images-area">
                             <img src="/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
                             <img src="/assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
+                            <div className="row d-flex align-items-center justify-content-center">
+                                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img1">
                                         <div className="space100"></div>
                                         <img src="/assets/img/all-images/service-img6.png" alt="" />
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img2">
                                         <img src="/assets/img/all-images/service-img7.png" alt="" />
                                     </div>
@@ -83,14 +83,14 @@ const WorksSection: React.FC = () => {
                         <div className="about-all-images-area">
                             <img src="/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
                             <img src="/assets/img/elements/elements15.png" alt="" className="elements13 keyframe5" />
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
+                            <div className="row d-flex align-items-center justify-content-center">
+                                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img1">
                                         <div className="space100"></div>
                                         <img src="/assets/img/all-images/service-img8.png" alt="" />
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+                                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img2">
                                         <img src="/assets/img/all-images/service-img9.png" alt="" />
                                     </div>

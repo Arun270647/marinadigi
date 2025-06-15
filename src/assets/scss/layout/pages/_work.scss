@@ -747,34 +747,25 @@
         }
 
         .about-all-images-area {
-            position: relative;
-            .elements12 {
-                position: absolute;
-                top: 50px;
-                left: 40%;
-                right: 50%;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .row {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
-            .elements13 {
-                position: absolute;
-                left: 50%;
-                bottom: 50px;
-                right: 40%;
-            }
-            .img1 {
-                img {
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                    border-radius: 100px;
-                }
-            }
-            .img2 {
-                img {
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                    border-radius: 100px;
-                }
+            .img1 img, .img2 img {
+                max-width: 180px;
+                max-height: 180px;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 100px;
+                display: block;
+                margin: 0 auto;
             }
         }
     }

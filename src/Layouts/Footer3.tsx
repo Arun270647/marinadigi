@@ -61,7 +61,7 @@ const Footer3: React.FC = () => {
                 <li className="mb-3">
                   <a href="mailto:admin@marinadigitals.com" className="d-inline-flex align-items-center text-decoration-none">
                     <img src="/assets/img/icons/email.svg" alt="Email" className="me-2" style={{ width: '20px', height: '20px' }} />
-                    <span className="fs-5">admin@marinadigitals.com</span>
+                    <span className="fs-5">admin@marinadigi.com</span>
                   </a>
                 </li>
                 <li className="mb-3">
