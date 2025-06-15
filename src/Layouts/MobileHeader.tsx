@@ -43,7 +43,7 @@ const navItems: NavItem[] = [
 
 const contactInfo: ContactInfoItem[] = [
   { icon: "fa-phone-volume", text: "+91 97899 03547", link: "tel:+91 97899 03547" },
-  { icon: "fa-envelope", text: "admin@marinadigitals.com", link: "mailto:admin@marinadigitals.com" },
+  { icon: "fa-envelope", text: "admin@marinadigi.com", link: "mailto:admin@marinadigi.com" },
   { icon: "fa-location-dot", text: "No38/68a palayakara street, Ayanavaram,Chennai-600023 " }
 ];
 
