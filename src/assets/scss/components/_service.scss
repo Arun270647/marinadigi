@@ -1485,4 +1485,13 @@
         }
     }
 }
+
+.about-all-images-area .row {
+  flex-wrap: nowrap !important;
+}
+.about-all-images-area .col-lg-6,
+.about-all-images-area .col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
 /*============= SERVICE CSS AREA ENDS===============*/

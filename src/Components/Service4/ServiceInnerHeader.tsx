@@ -22,7 +22,6 @@ const ServiceInnerHeader: React.FC = () => {
                 essential for building lasting relationships and{" "}
                 <br className="d-lg-block d-none" /> driving business growth.
               </p>
-              <div className="space32"></div>
               <div className="btn-area1">
                 <Link to="/service1" className="header-btn1">
                   View Our Services{" "}

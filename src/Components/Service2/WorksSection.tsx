@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorksSection: React.FC = () => {
     return (
-        <div className="works-inner-section-area sp1">
+        <div className="works-inner-section-area">
             <div className="container">
                 {/* First Row */}
                 <div className="row align-items-center">
@@ -14,7 +14,6 @@ const WorksSection: React.FC = () => {
                             <div className="row d-flex align-items-center justify-content-center">
                                 <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img1">
-                                        <div className="space100"></div>
                                         <img src="/assets/img/all-images/about-img6.png" alt="" />
                                     </div>
                                 </div>
@@ -42,15 +41,6 @@ const WorksSection: React.FC = () => {
                 {/* Second Row */}
                 <div className="row align-items-center">
                     <div className="col-lg-1"></div>
-                    <div className="col-lg-4">
-                        <div className="works-header-area heading2">
-                            <h5>SEO Service</h5>
-                            <h2>Technical SEO</h2>
-                            <p>We optimize your website's content, ensuring it is relevant, engaging, and includes targeted keywords. We craft compelling meta titles and descriptions to improve click-through rates from search engine.</p>
-                            <div className="space16"></div>
-                            <p>We enhance your website's internal linking structure to improve navigation and distribute page authority.</p>
-                        </div>
-                    </div>
                     <div className="col-lg-6">
                         <div className="about-all-images-area">
                             <img src="/assets/img/elements/elements14.png" alt="" className="elements12 keyframe5" />
@@ -58,7 +48,6 @@ const WorksSection: React.FC = () => {
                             <div className="row d-flex align-items-center justify-content-center">
                                 <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img1">
-                                        <div className="space100"></div>
                                         <img src="/assets/img/all-images/service-img6.png" alt="" />
                                     </div>
                                 </div>
@@ -68,6 +57,15 @@ const WorksSection: React.FC = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="works-header-area heading2">
+                            <h5>SEO Service</h5>
+                            <h2>Technical SEO</h2>
+                            <p>We optimize your website's content, ensuring it is relevant, engaging, and includes targeted keywords. We craft compelling meta titles and descriptions to improve click-through rates from search engine.</p>
+                            <div className="space16"></div>
+                            <p>We enhance your website's internal linking structure to improve navigation and distribute page authority.</p>
                         </div>
                     </div>
                     <div className="col-lg-1"></div>
@@ -86,7 +84,6 @@ const WorksSection: React.FC = () => {
                             <div className="row d-flex align-items-center justify-content-center">
                                 <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                                     <div className="img1">
-                                        <div className="space100"></div>
                                         <img src="/assets/img/all-images/service-img8.png" alt="" />
                                     </div>
                                 </div>
