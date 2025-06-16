@@ -36,7 +36,7 @@ const WorksSection: React.FC = () => {
             </div>
 
             {/* Second Row */}
-            <div className="row align-items-center">
+            <div className="row align-items-center flex-lg-row-reverse">
                 <div className="col-lg-1"></div>
                 <div className="col-lg-6">
                     <div className="about-all-images-area">
@@ -102,6 +102,7 @@ const WorksSection: React.FC = () => {
                 </div>
                 <div className="col-lg-1"></div>
             </div>
+            <div className="mb-5"></div>
         </div>
     );
 };
