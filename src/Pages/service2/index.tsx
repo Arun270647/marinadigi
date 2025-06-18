@@ -7,6 +7,7 @@ import Footer from "../../Layouts/Footer3";
 import Header from "../../Layouts/Header6";
 import MobileHeaderSidebar from "../../Layouts/MobileHeader";
 import { useEffect } from "react";
+import { Helmet } from 'react-helmet-async';
 
 const Service2Page = () => {
     useEffect(() => {
@@ -20,6 +21,12 @@ const Service2Page = () => {
 
     return (
         <>
+        <Helmet>
+                <title>SEO Services - Marina Digitals | Boost Your Rankings</title>
+                <meta name="description" content="Achieve top search engine rankings with Marina Digitals' expert SEO services. We offer comprehensive strategies for organic growth and increased online visibility." />
+                <meta name="keywords" content="SEO services, search engine optimization, local SEO, technical SEO, content marketing, keyword research, SEO agency, Marina Digitals SEO" />
+                <link rel="canonical" href="https://www.marinadigitals.com/service2" /> 
+      </Helmet>
             <MobileHeaderSidebar />
             <Header />
             <PageHero
