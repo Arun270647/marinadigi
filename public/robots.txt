@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Replace the URL below with your actual deployed site URL if different
+Sitemap: https://marinadigi.com/sitemap.xml 
