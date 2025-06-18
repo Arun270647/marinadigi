@@ -71,7 +71,7 @@ const AboutSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                   to="/service1"
                   className={btnClass ? btnClass : "header-btn12"}
                 >
-                  Learn More{" "}
+                  Learn more about our SEO services
                   {!btnClass && <i className="fa-solid fa-arrow-right"></i>}
                 </Link>
               </div>

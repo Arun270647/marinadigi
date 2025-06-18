@@ -12,7 +12,7 @@ const AboutSection: React.FC = () => {
                             <h2 className="text-anime-style-3" style={{fontSize: '0.8rem'}}>Comprehensive SEO & Digital Marketing Solutions.</h2>
                             <p style={{fontSize: '0.7rem'}}>Welcome to Marina Digitals your trusted partner for comprehensive SEO and digital marketing solutions. With our proven expertise and innovative strategies the digital landscape.</p>
                             <div className="btn-area">
-                                <Link to="/service1" className="header-btn1" style={{fontSize: '0.6rem', padding: '4px 10px', borderRadius: '15px'}}>Learn More<span><i className="fa-solid fa-arrow-right" style={{fontSize: '0.8rem', marginLeft: 4}}></i></span></Link>
+                                <Link to="/service1" className="header-btn1" style={{fontSize: '0.6rem', padding: '4px 10px', borderRadius: '15px'}}>Learn more about our SEO services<span><i className="fa-solid fa-arrow-right" style={{fontSize: '0.8rem', marginLeft: 4}}></i></span></Link>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const AboutSection: React.FC = () => {
                         <h2 className="text-anime-style-3">Comprehensive SEO & Digital Marketing Solutions.</h2>
                         <p>Welcome to Marina Digitals your trusted partner for comprehensive SEO and digital marketing solutions. With our proven expertise and innovative strategies the digital landscape.</p>
                         <div className="btn-area">
-                            <Link to="/service1" className="header-btn1">Learn More<span><i className="fa-solid fa-arrow-right"></i></span></Link>
+                            <Link to="/service1" className="header-btn1" style={{fontSize: '0.6rem', padding: '4px 10px', borderRadius: '15px'}}>Learn more about our SEO services<span><i className="fa-solid fa-arrow-right" style={{fontSize: '0.8rem', marginLeft: 4}}></i></span></Link>
                         </div>
                     </div>
                     <div className="col-lg-3 d-none d-lg-block">

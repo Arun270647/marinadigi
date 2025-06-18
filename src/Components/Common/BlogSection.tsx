@@ -100,7 +100,8 @@ const BlogSection: React.FC = () => {
                   <div className="space16"></div>
                   <p>{blog.description}</p>
                   <Link to={blog.link} className="readmore">
-                    Learn More<i className="fa-solid fa-arrow-right"></i>
+                    Read the full article: {blog.title}
+                    <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div className="space24"></div>

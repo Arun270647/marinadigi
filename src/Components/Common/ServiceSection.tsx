@@ -116,7 +116,7 @@ const ServiceSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                           <Link to={service.link}>{service.title}</Link>
                           <p>{service.description}</p>
                           <Link to={service.link} className="readmore">
-                            Learn More{" "}
+                            Learn more about {service.title}
                             <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
@@ -146,7 +146,7 @@ const ServiceSection: React.FC<{ btnClass?: string }> = ({ btnClass }) => {
                       to="/service1"
                       className={btnClass ? btnClass : "header-btn12"}
                     >
-                      View More Services{" "}
+                      View More Services
                       {!btnClass && <i className="fa-solid fa-arrow-right"></i>}
                     </Link>
                   </div>
