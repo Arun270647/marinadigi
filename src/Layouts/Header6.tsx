@@ -9,20 +9,23 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { label: "About", to: "/about" }, 
+  { label: "About Us", to: "/about" }, // Improved: "About" -> "About Us"
   {
-    label: " Our Services",
-    to: "#", 
+    label: "Our Services", // This is the main dropdown label, which is fine
+    to: "#",
     dropdown: [
-      { label: "Our Best Servieces", to: "/service1" }, 
-      { label: "SEO", to: "/service2" },
-      // { label: "Pay Per Click", to: "/service3" }, // PPC commented out
-      { label: "Email Marketing", to: "/service4" },
-      { label: "Social Media Marketing", to: "/service5" }
+      { label: "All Digital Services", to: "/service1" }, // Improved: "Our Best Servieces" -> "All Digital Services"
+      { label: "Search Engine Optimization (SEO)", to: "/service2" }, // Improved: "SEO" -> "Search Engine Optimization (SEO)"
+      // { label: "Pay Per Click", to: "/service3" }, // PPC commented out - if uncommented, make descriptive
+      { label: "Email Marketing Solutions", to: "/service4" }, // Improved: "Email Marketing" -> "Email Marketing Solutions"
+      { label: "Social Media Marketing (SMM)", to: "/service5" } // Improved: "Social Media Marketing" -> "Social Media Marketing (SMM)"
       // ...
     ],
   },
-  
+  // Removed "Case Studies" and "Blog" sections
+  { label: "Our Team", to: "/team" },
+  { label: "FAQ", to: "/faq" },
+  { label: "Contact Us", to: "/contact" }, // Improved: If not already in the main menu
 ];
 
 const Header6: React.FC = () => {
@@ -30,7 +33,7 @@ const Header6: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY < 1) { 
+      if (window.scrollY < 1) {
         setIsSticky(false);
       } else {
         setIsSticky(true);
@@ -39,11 +42,11 @@ const Header6: React.FC = () => {
 
     window.addEventListener("scroll", handleScroll);
 
-    
+    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); 
+  }, []);
 
   return (
     <header
@@ -57,7 +60,7 @@ const Header6: React.FC = () => {
             <div className="header-elements">
               <div className="site-logo">
                 <Link to="/"> {/* Logo also links to the homepage */}
-                  <img src="/assets/img/logo/header-logo.png" alt="Logo" /> {/* [cite: marina-digi-gemini/src/Layouts/Header6.tsx] */}
+                  <img src="/assets/img/logo/header-logo.png" alt="Marina Digitals Logo" /> {/* Added alt text for SEO */}
                 </Link>
               </div>
               <div className="main-menu d-flex align-items-center gap-3">
@@ -89,9 +92,9 @@ const Header6: React.FC = () => {
                   ))}
                 </ul>
               </div>
-              <Link to="/contact" className="header-btn6"> {/* [cite: marina-digi-gemini/src/Layouts/Header6.tsx] */}
-                Get In Touch
-              </Link>
+              <Link to="/contact" className="header-btn6">
+                Get In Touch With Us
+              </Link> {/* Improved: "Get In Touch" -> "Get In Touch With Us" */}
             </div>
           </div>
         </div>
